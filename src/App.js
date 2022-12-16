@@ -1,7 +1,9 @@
+import DesktopOne from "./pages/Desktop1/DesktopOne/DesktopOne";
+
 function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <DesktopOne/>
     </div>
   );
 }
