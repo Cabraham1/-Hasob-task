@@ -1,10 +1,20 @@
 import React from 'react'
 import Header from '../Header/header'
+import Card from '../../../UI/cardUi/Card'
 
-const DesktopOne = () => {
+const DesktopOne = (props) => {
   return (
     <div>
-      <Header/>
+      <Header />
+      <Card>
+
+      </Card>
+      <Card>
+
+      </Card>
+      <Card>
+
+      </Card>
     </div>
   )
 }
