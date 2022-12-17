@@ -1,19 +1,20 @@
 import React from "react";
 import "./header.css";
 import Coat from "../../../assets/pngaaa.com-2952375.png";
-import Profile from "../../../assets/user-svgrepo-com.svg";
-import Cart from "../../../assets/cart-svgrepo-com.svg";
+import Profile from "../../../assets/person.png";
+import Cart from "../../../assets/trolley.png";
 
 const header = () => {
   return (
     <div className="header-container">
-      <div className="header-logo">
+      <a href="#" className="header-logo">
         <img src={Coat} alt="coat of arm" className="coatofarm" />
         <p>
           DEBT MANAGEMENT OFFICE <br />
           NIGERIA
         </p>
-      </div>
+      </a>
+
       <div className="header-nav">
         <ul className="header-Items">
           <li>
@@ -32,7 +33,7 @@ const header = () => {
           <a href="">
             <img src={Profile} alt="CartIcon" className="profile-icon" />
           </a>
-          <a href="#" className='cart'>
+          <a href="#" className="cart">
             <img src={Cart} alt="CartIcon" className="cart-icon" />
             <div className="counter">2</div>
           </a>

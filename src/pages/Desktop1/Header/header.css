@@ -36,7 +36,7 @@ li {
   margin-left: 8rem;
 }
 
-.header-icon  {
+.header-icon {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -58,6 +58,7 @@ li {
   position: relative;
   padding-right: 1rem;
 }
+
 .counter {
   height: 17px;
   width: 17px;
@@ -73,11 +74,8 @@ li {
 
 }
 
-.profile-icon {
-  width: 1.7rem;
-}
-
-.cart-icon{
+.profile-icon,
+.cart-icon {
   width: 2.5rem;
 }
 
@@ -85,4 +83,50 @@ li {
 
 .coatofarm {
   width: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 3px solid black;
+    margin-left: 0rem;
+  }
+
+  .header-logo>p {
+    color: #568B2E;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bolder;
+  }
+
+  .header-Items {
+    display: flex;
+    flex-direction: column;
+    margin-right: 9rem;
+    margin-top: 1rem;
+  }
+
+  .header-logo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-icon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+  }
+
+  .header-nav>ul>li :hover {
+    color: #474947;
+  }
 }
