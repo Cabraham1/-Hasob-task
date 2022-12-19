@@ -90,9 +90,9 @@ li {
   .header-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    border: 3px solid black;
-    margin-left: 0rem;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
   }
 
   .header-logo>p {
