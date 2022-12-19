@@ -1,0 +1,54 @@
+button {
+  width: 7rem;
+  font-size: 1.1rem;
+  padding: 2px;
+}
+
+.login {
+  border: 1px solid #96BB80e6;
+  color: green;
+  background-color: #ECFBEC;
+}
+
+.Signup {
+  color: white;
+  background-color: black;
+}
+
+.Signup:hover {
+  color: black;
+  background-color: white;
+}
+
+.login:hover {
+  color: #ECFBEC;
+  background-color: green;
+}
+
+.container-two {
+  position: relative;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-two>a>img {
+  position: absolute;
+  top: 8rem;
+  right: 1rem;
+  width: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-two {
+    margin-top: 1rem;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-two>a>img {
+    display: none;
+  }
+}

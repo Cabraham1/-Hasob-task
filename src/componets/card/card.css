@@ -1,0 +1,107 @@
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-container>div>p {
+  color: #55615b;
+  background-color: #BDE8D0;
+  padding: 8px;
+  border-radius: 25px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
+
+.coat {
+  width: 3rem;
+}
+
+.card-title {
+  margin-top: 0.5rem;
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #494C49;
+  width: 100%;
+}
+
+.card-date {
+  margin-top: 0.5rem;
+  color: #55615b;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+.card-items {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-items>span {
+  color: #55615b;
+  font-size: 0.7rem;
+}
+
+.card-items>p {
+  color: black;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+.love-cart {
+  width: 1.5rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.card-action {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.card-action>button {
+  width: 10rem;
+  padding: 1rem;
+  height: 3rem;
+  font-size: 1rem;
+  border: 1px solid #417B13;
+  border-radius: 3px;
+  color: white;
+  background-color: #417B13;
+  -webkit-box-shadow: 4px 7px 5px 0px rgba(227, 227, 227, 1);
+  -moz-box-shadow: 4px 7px 5px 0px rgba(227, 227, 227, 1);
+  box-shadow: 4px 7px 5px 0px rgba(227, 227, 227, 1);
+}
+
+button {
+  width: 1rem;
+  padding: 8rem;
+  height: 3rem;
+  font-size: 1rem;
+  border: 1px solid #417B13;
+  border-radius: 3px;
+  color: white;
+  background-color: #417B13;
+  -webkit-box-shadow: 4px 7px 5px 0px rgba(227, 227, 227, 1);
+  -moz-box-shadow: 4px 7px 5px 0px rgba(227, 227, 227, 1);
+  box-shadow: 4px 7px 5px 0px rgba(227, 227, 227, 1);
+}
+
+button:hover {
+  color: #417B13;
+  background-color: white;
+}

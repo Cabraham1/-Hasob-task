@@ -1,7 +1,13 @@
+import DesktopOne from "./pages/Desktop1/DesktopOne/DesktopOne";
+import DesktopTwo from "./pages/Desktop2/DesktopTwo/DesktopTwo";
+
 function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
+      {/* <DesktopOne /> */}
+      <DesktopTwo />
+      
+      
     </div>
   );
 }

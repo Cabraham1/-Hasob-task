@@ -1,0 +1,132 @@
+a {
+  text-decoration: none;
+  color: #B0B6B0;
+  font-size: 1.2rem;
+
+}
+
+li {
+  list-style: none;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.header-logo>p {
+  color: #568B2E;
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+
+.header-Items {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-left: 8rem;
+}
+
+.header-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 10rem;
+  gap: 2rem;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-nav>ul>li :hover {
+  color: #474947;
+}
+
+.cart {
+  position: relative;
+  padding-right: 1rem;
+}
+
+.counter {
+  height: 17px;
+  width: 17px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 2px;
+  right: 10px;
+
+}
+
+.profile-icon,
+.cart-icon {
+  width: 2.5rem;
+}
+
+
+
+.coatofarm {
+  width: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .header-logo>p {
+    color: #568B2E;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bolder;
+  }
+
+  .header-Items {
+    display: flex;
+    flex-direction: column;
+    margin-right: 9rem;
+    margin-top: 1rem;
+  }
+
+  .header-logo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-icon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+  }
+
+  .header-nav>ul>li :hover {
+    color: #474947;
+  }
+}

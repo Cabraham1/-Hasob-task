@@ -1,0 +1,31 @@
+.main-container {
+  position: relative;
+}
+
+.main-container>a>img {
+  width: 4rem;
+  position: absolute;
+  top: 16rem;
+  right: 0rem;
+}
+
+.cardsItemes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardsItemes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 2rem;
+    width: 100%;
+  }
+
+  .main-container>a>img {
+    display: none;
+  }
+}
