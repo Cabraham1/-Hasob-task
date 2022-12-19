@@ -7,7 +7,7 @@ import "./DesktopTwo.css"
 
 const DesktopTwo = () => {
   return (
-    <div>
+    <div className="Desktop-Two">
       <Header />
       <div className="container-two">
         <Card>

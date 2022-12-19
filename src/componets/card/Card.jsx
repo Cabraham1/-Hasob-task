@@ -44,9 +44,7 @@ const Card = (props) => {
           <p>Oct/12/2022</p>
         </div>
         <div className="card-action">
-        
             <button>Add to cart</button>
-          
           <a href="#">
             <img src={LoveCart} alt="love cart"  className="love-cart"/>
           </a>
