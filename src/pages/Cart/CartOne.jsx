@@ -18,7 +18,7 @@ const CartOne = (props) => {
           </label>
           <p className="cart-title">730 days Savings Bond</p>
         </div>
-        <div >
+        <div className="add-del">
           <button className="automatic">Automatic</button>
           <button className="delete">Delete</button>
         </div>
