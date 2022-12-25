@@ -6,8 +6,8 @@ function App() {
   return (
     <div>
       {/* <DesktopOne /> */}
-      {/* <DesktopTwo /> */}
-      <Cart/>
+      <DesktopTwo />
+      {/* <Cart/> */}
       
       
     </div>

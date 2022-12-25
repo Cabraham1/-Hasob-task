@@ -13,8 +13,9 @@ li {
   display: flex;
   align-items: center;
   padding: 2rem;
-  width: 100vw;
+  width: 100%;
   justify-content: space-between;
+  margin-top: 2rem;
 }
 
 .header-logo {
@@ -32,8 +33,10 @@ li {
 .header-Items {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 3rem;
-  margin-left: 8rem;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .header-icon {
@@ -42,12 +45,15 @@ li {
   justify-content: space-around;
   width: 10rem;
   gap: 2rem;
+  margin-bottom: 1rem;
 }
 
 .header-nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 70%;
+  margin-left: 3rem;
 }
 
 .header-nav>ul>li :hover {
