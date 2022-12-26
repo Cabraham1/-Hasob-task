@@ -113,6 +113,11 @@ input {
   .form-container {
     margin-top: 1rem;
   }
+
+  .inputTitle h1, .inputTitle p{
+    text-align: left;
+
+  }
   .inputTitle {
     margin-top: 15rem;
   }
