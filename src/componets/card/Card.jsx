@@ -28,7 +28,7 @@ const Card = (props) => {
           <p>11.382%</p>
         </div>
         <div className="card-items">
-          <span>interest Payment</span>
+          <span>Interest Payment</span>
           <p>Quarterly</p>
         </div>
         <div className="card-items">

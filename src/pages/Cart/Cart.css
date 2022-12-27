@@ -1,0 +1,247 @@
+.cartOne {
+  display: flex;
+  justify-content: center;
+}
+
+.cartOne-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #96BB80e6;
+  border-radius: 5px;
+  width: 90%;
+  height: 50%;
+  -webkit-box-shadow: 4px 7px 5px 0px rgba(227, 227, 227, 1);
+  -moz-box-shadow: 4px 7px 5px 0px rgba(227, 227, 227, 1);
+  box-shadow: 4px 7px 5px 0px rgba(227, 227, 227, 1);
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.cartOne-container button {
+  margin-top: 2rem;
+}
+
+
+#coat {
+  width: 4rem;
+  margin-left: 1rem;
+}
+
+.cart-title {
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: #494C49;
+  width: 100%;
+}
+
+#inputPreview {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.automatic {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: green;
+  background-color: #ECFBEC;
+  box-shadow: none;
+  margin-right: 1rem;
+  width: 5rem;
+  height: 2rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.delete {
+  font-size: 0.9rem;
+  font-weight: bold;
+  width: 5rem;
+  border: none;
+  height: 2rem;
+  color: red;
+  background-color: #ECFBEC;
+  box-shadow: none;
+}
+
+.automatic:hover {
+  color: #ECFBEC;
+  background-color: green;
+}
+
+.delete:hover {
+  background-color: red;
+  color: #ECFBEC;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.input-form>label {
+  margin-bottom: 0.2rem;
+  font-size: 0.9rem;
+  color: #B0B6B0;
+  font-weight: bold;
+}
+
+.naira {
+  content: "\20A6";
+  color: #B0B6B0;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+#amount {
+  height: 2rem;
+  border: none;
+  background-color: #ECFBEC;
+  font-weight: bold;
+}
+
+.amount {
+  border: 1px solid #96BB80e6;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  width: 100%;
+}
+
+.amount input:focus {
+  outline: none;
+}
+
+.add>img {
+  width: 1rem;
+  margin-left: 0.5rem;
+  margin-top: 0.3rem;
+
+}
+
+.minus>img {
+  width: 1rem;
+  margin-right: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.cartTwo-container {
+  border: 1px solid #96BB80e6;
+margin-bottom: 0.5rem;
+  border-radius: 5px;
+  width: 90%;
+  height: 50%;
+  -webkit-box-shadow: 4px 7px 5px 0px rgba(227, 227, 227, 1);
+  -moz-box-shadow: 4px 7px 5px 0px rgba(227, 227, 227, 1);
+  box-shadow: 4px 7px 5px 0px rgba(227, 227, 227, 1);
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.cartTwo-container3 {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.downArrow {
+  width: 0.6rem;
+}
+
+.fees-section {
+  display: flex;
+  margin-left: 5rem;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #B0B6B0;
+  font-weight: bold;
+}
+
+.fees-section2 {
+  display: flex;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+
+.fees-section2 span {
+  margin-right: 40rem;
+  font-size: 1rem;
+  color: #B0B6B0;
+  font-weight: bold;
+}
+
+.fees-section3 p {
+  font-size: 1rem;
+  color: #B0B6B0;
+  font-weight: bold;
+}
+
+.fees-section3 {
+  margin-top: 0.5rem;
+}
+
+.naira1 {
+  content: "\20A6";
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.feesAmount {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.cartTwo-container>p {
+  margin-top: 0.9rem;
+  font-size: 1rem;
+  color: #B0B6B0;
+  font-weight: bold;
+  width: 50%;
+  margin-left: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .cartOne-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-form {
+    width: 100%;
+    display: flex;
+  }
+
+  .add-del {
+    margin: auto;
+  }
+
+  .cartTwo-container3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feesAmount {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .cartTwo-container>p {
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+}
