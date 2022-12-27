@@ -3,12 +3,13 @@ import "./home.css";
 import Header from "./header/Header";
 import smallArrow from "../../assets/icons8-right-arrow-50.png";
 import PlayVid from "../../assets/play-button.png";
-import nextPage from "../../assets/next.png";
-import menuPage from "../../assets/menu.png";
+import Statpic from "../../assets/Home1.png"
+import Blod from "../../assets/blob_11-6-NaN.svg"
+import mainPic from "../../assets/Component 3.png"
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-container">
       <Header />
       <div className="divider">
         <div className="left"></div>
@@ -33,7 +34,7 @@ const Home = () => {
           <span>See video</span>
         </div>
       </div>
-      <div className="next">
+      {/* <div className="next">
         <a href="#">
           <img src={nextPage} alt="" />
         </a>
@@ -42,7 +43,10 @@ const Home = () => {
         <a href="#">
           <img src={menuPage} alt="" className="menupage" />
         </a>
-      </div>
+      </div> */}
+      <img src={Blod} alt="" className="blob" />
+      <img src={mainPic} alt="" className="mainPic" />
+      <img src={Statpic} alt="" className="statPic" />
     </div>
   );
 };

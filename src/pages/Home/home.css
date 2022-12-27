@@ -1,3 +1,7 @@
+.home-container {
+  position: relative;
+}
+
 .logo {
   margin-left: -2rem;
   width: 20rem;
@@ -43,7 +47,7 @@
   justify-content: space-around;
   width: 20rem;
   margin-left: 2rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .home-action button {
@@ -68,31 +72,37 @@
 .play-vid {
   display: flex;
   align-items: center;
-  gap: 0.5rem ;
+  gap: 0.5rem;
 }
+
 .play-vid span {
   color: #494C49;
   font-weight: lighter;
   font-size: 1rem;
 }
 
-.next {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 2rem;
+
+
+/* background section */
+
+.blob {
+  position: absolute;
+  top: 4rem;
+  margin-left: 23rem;
+  z-index: -1;
+  width: 40rem;
 }
 
-.next img {
-  width: 2.5rem;
+.mainPic {
+  width: 47.5rem;
+  position: absolute;
+  top: 6rem;
+  margin-left: 20rem;
 }
 
-.menuNav img {
-  width: 5rem;
-}
-
-.menuNav {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 4rem;
-  margin-top: -2rem;
+.statPic {
+  position: absolute;
+  margin-left: 44rem;
+  margin-top: -10.5rem;
+  width: 12rem;
 }
